@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Varela+Round&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+html {
+    background-color: #e4e2e0;
+    scroll-behavior: smooth;
+}
+
+/* To Whole Page */
+.PAGEBOX {
+    margin: 50px 70px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 55%);
+    padding: 30px 80px;
+
+}
+
+h2 {
+    color: #4353ff;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+/* INTRO SECTION */
+.IntroSection {
+    border-radius: 20px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+}
+
+/* Navbar */
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Introduction */
+.introduction {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+/* FirstBox */
+.introBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* IntroText */
+.introText {
+    font-size: 30px;
+}
+
+/* Follow Icons */
+.followIcons {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.followIcons span {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* Follow Buttons */
+.btn {
+    position: relative;
+    top: -2px;
+    height: 34px;
+    width: 110px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: #4353ff;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+/* Pic Box */
+.picBox {
+    width: 60%;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.picBox img {
+    padding: 50px 10px;
+    height: 100%;
+    width: 100%;
+}
+
+/* PROJECTS */
+.projects {
+    height: 100%;
+}
+
+/* Boxes - Grid */
+.boxes {
+    margin: 40px 0;
+    padding-bottom: 20px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+}
+
+/* Each Box */
+.box {
+    /* width: 100%; */
+    border: 5px solid white;
+    margin: 10px;
+    box-shadow: 0 8px 18px 0px rgb(0 0 0 / 50%);
+}
+
+.box img {
+    height: 100%;
+    width: 100%;
+}
+
+/* SKILLS */
+.skills {
+    height: 100%;
+}
+
+.skills h2 {
+    margin-bottom: 40px;
+}
+
+.skillbox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 0 15px;
+}
+
+/* Skill Image */
+.skillImage {
+    height: 90px;
+    width: 90px;
+    padding: 8px;
+    margin: 1vh 1vw;
+    box-shadow: 0 8px 18px 0px rgb(0 0 0 / 30%);
+    border-radius: 5px;
+}
+
+/* ABOUT */
+.about {
+    height: 100%;
+    padding: 5px 0;
+}
+
+/* About Text */
+.aboutText {
+    margin: 15px 0;
+}
+
+.aboutText h2 {
+    margin-bottom: 8px;
+}
+
+.aboutText span {
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* expertise */
+.expertise {
+    margin: 15px 0;
+}
+
+/* Ex Box */
+.threeBox {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    margin: 40px 0;
+    gap: 0 30px;
+}
+
+/* To all 3 Boxes */
+.commonBox {
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 8px 18px 0px rgb(0 0 0 / 30%);
+    padding: 20px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.commonBox span {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 16px;
+    text-align: justify;
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* Each Box */
+.one {
+    border-bottom: 5px solid blue;
+}
+
+.two {
+    border-bottom: 5px solid yellow;
+}
+
+.three {
+    border-bottom: 5px solid orange;
+}
+
+/* EXPERIENCE & EDUCATION */
+.experience {
+    height: 100%;
+}
+
+/* Whole Box */
+.experienceBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.experienceBoxInside {
+    display: flex;
+    height: 100%;
+    width: 1100px;
+    box-shadow: 0 8px 18px 0px rgb(0 0 0 / 30%);
+    padding: 20px 20px;
+}
+
+/* List */
+.list {
+    width: 170px;
+}
+
+.list ul li {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    list-style: none;
+    height: 60px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.list ul li:hover {
+    position: relative;
+    cursor: pointer;
+    background-color: #e4e2e0;
+    border-left: 2px solid black;
+    left: -2px;
+}
+
+/* Tabs */
+/* Tabs - Display Off */
+.tabs {
+    display: none;
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+/* Tabs - Display On */
+.display-active {
+    display: block;
+}
+
+.tabs h2 {
+    font-size: 30px;
+}
+
+.tabs h4 {
+    margin: 5px 0;
+}
+
+.tabs span,
+i {
+    margin: 5px 0;
+    font-size: 17px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    height: 50px;
+}
+
+.boxx {
+    display: flex;
+    align-items: center;
+}
+
+.boxx img {
+    margin: 0 4px;
+}
+
+
+/* MEDIA QUERIES */
+/* max width is not mentioned. So it is infinite pixel(px) as default. */
+@media only screen and (max-width: 1250px) {
+
+    /* INTRODUCTION */
+    .introduction {
+        height: 400px;
+    }
+
+    /* Mainpage Text */
+    .introText {
+        font-size: 25px;
+    }
+
+    /* Picbox */
+    .picBox img {
+        padding: 30px 10px;
+    }
+
+    /* PROJECTS */
+    .projects {
+        height: 100%;
+    }
+
+    /* Skills */
+    .skillbox {
+        padding: 0 65px;
+    }
+
+}
+
+@media only screen and (max-width:1100px) {
+
+    /* PAGEBOX */
+    .PAGEBOX {
+        margin: 50px 35px;
+        padding: 30px 40px;
+    }
+
+    /* Picbox */
+    .picBox img {
+        padding: 20px 0px;
+    }
+
+    /* Skills */
+    .skillbox {
+        padding: 0 64px;
+    }
+}
+
+@media only screen and (max-width:950px) {
+
+    /* Mainpage Text */
+    .introText {
+        font-size: 32px;
+    }
+
+    /* Picbox */
+    .picBox {
+        display: none;
+    }
+
+    /* About */
+    /* expertise */
+    .expertise {
+        margin: 15px 0;
+    }
+
+    /* Ex Box */
+    .threeBox {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* To all 3 Boxes */
+    .commonBox {
+        height: min-content;
+        margin: 10px 5px;
+    }
+
+    .commonBox h2 {
+        width: 100%;
+        text-align: left;
+    }
+
+    .commonBox span {
+        text-align: left;
+    }
+
+}
+
+@media only screen and (max-width:790px) {
+
+    /* Mainpage Text */
+    .introText {
+        font-size: 25px;
+    }
+
+    /* PROJECTS */
+    /* Boxes - Grid */
+    .boxes {
+        grid-template-columns: auto;
+
+    }
+    /* Skills */
+    .skillbox {
+        padding: 0 45px;
+    }
+}
+@media only screen and (max-width:440px) {
+    /* Skills */
+    .skillbox {
+        padding: 0 0px;
+    }
+}
